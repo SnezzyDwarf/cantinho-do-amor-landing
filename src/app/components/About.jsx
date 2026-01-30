@@ -1,4 +1,7 @@
 import Cats from "../assets/images/CatImageAboutPlaceHolder.png";
+import HeartIcon from "../assets/Ui/HeartIcon";
+import IconUser from "../assets/Ui/IconUser";
+import ShieldIcon from "../assets/Ui/ShieldIcon";
 import "../styles/About.css";
 
 export default function About() {
@@ -27,24 +30,24 @@ export default function About() {
           </div>
         </div>
         <div className="about_box">
-          <div>
-            <img src="" alt="" />
+          <div className="about_box-container">
+            <HeartIcon size={48} className="about-icon" />
             <h3>Amor & Cuidado</h3>
             <p>
               Cada gato recebe atenção individualizada e todo o carinho que
               merece
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div className="about_box-container">
+            <IconUser size={54} className="about-icon" />
             <h3>Equipe Dedicada</h3>
             <p>
               Profissionais qualificados e voluntários apaixonados trabalhando
               juntos
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div className="about_box-container">
+            <ShieldIcon size={48} className="about-icon" />
             <h3>Proteção Total</h3>
             <p>
               Do resgate à adoção, garantimos segurança e bem-estar em todas as
