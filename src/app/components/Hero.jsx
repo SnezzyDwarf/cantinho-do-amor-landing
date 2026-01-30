@@ -19,7 +19,7 @@ export default function Hero() {
             <a href="">
               <span>Conheça nossa missão</span>
               <div>
-                <p>seta</p>
+                <p className="arrow"></p>
               </div>
             </a>
           </div>
