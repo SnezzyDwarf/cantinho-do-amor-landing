@@ -1,0 +1,64 @@
+:root {
+  --color-primary: #e1acce;
+  --color-primary-soft: #eed2e3;
+  --color-body: #f5f5f4;
+
+  --color-bg-main: #ffffff;
+  --color-bg-soft: #e0d3db;
+
+  --color-text-main: #1a1a1a;
+  --color-text-muted: #6b6b6b;
+}
+
+.impact_box {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 100%;
+  background-color: var(--color-bg-main);
+}
+
+.impact_box-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.impact_box-text h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  color: var(--color-text-main);
+}
+
+.impact_box-text p {
+  font-size: 22px;
+  color: var(--color-text-muted);
+}
+
+.impact_container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+  margin: 0 auto;
+}
+
+.impact_container-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin-bottom: 100px;
+  background-color: var(--color-primary-soft);
+  border-radius: 12px;
+  box-shadow: 2px 5px 6px gray;
+}
+
+.impact_container-box:hover {
+  border: 2px solid gray;
+  box-shadow: 2px 5px 9px rgb(144, 105, 111);
+}
