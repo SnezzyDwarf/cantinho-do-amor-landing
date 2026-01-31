@@ -17,7 +17,12 @@ clean design, accessibility, and clear visual hierarchy.
 - Header almost completed
 - Hero section in progress
 - Responsiveness pending
-  -scroll gallery pending
+- Counter pending (logic Javascript done)
+- About pending
+  -Scroll gallery pending (logic Javascript done)
+  -Donation pending
+  -Footer pending
+  -Mobile integration 0% :/
 
 ## Notes
 
