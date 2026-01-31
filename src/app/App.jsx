@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Objective from "./components/Objective";
 import Counter from "./components/Counter";
-
+import AfterBefore from "./components/AfterBefore";
 function App() {
   return (
     <>
@@ -12,6 +12,7 @@ function App() {
       <About />
       <Objective />
       <Counter />
+      <AfterBefore />
     </>
   );
 }
