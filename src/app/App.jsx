@@ -4,6 +4,10 @@ import About from "./components/About";
 import Objective from "./components/Objective";
 import Counter from "./components/Counter";
 import AfterBefore from "./components/AfterBefore";
+import slides from "../app/assets/data/CatsData";
+import Donation from "./components/Donation";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
@@ -12,7 +16,9 @@ function App() {
       <About />
       <Objective />
       <Counter />
-      <AfterBefore />
+      <AfterBefore slides={slides} />
+      <Donation />
+      <Footer />
     </>
   );
 }
