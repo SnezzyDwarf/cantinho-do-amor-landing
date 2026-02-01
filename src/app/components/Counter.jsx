@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "../styles/Counter.css";
 import CatIcon from "../assets/Ui/CatIcon";
-import HouseIcon from "../assets/Ui/HouseIcon";
+import RainbowIcon from "../assets/Ui/Rainbow";
 import HeartIcon from "../assets/Ui/HeartIcon";
 
 export default function Counter() {
@@ -34,7 +34,7 @@ export default function Counter() {
   useEffect(() => {
     if (!hasStarted) return;
 
-    const targets = [192, 100, 92];
+    const targets = [199, 185, 9];
     const steps = 48;
     const incs = targets.map((t) => Math.max(1, Math.ceil(t / steps)));
 
@@ -97,7 +97,7 @@ export default function Counter() {
         </div>
 
         <div className="impact_container-box">
-          <HouseIcon size={100} className="impact-icon" />
+          <RainbowIcon size={100} className="impact-icon" />
           <div className="impact-container-box_text">
             <h2>{count3}</h2>
             <p>Gatos Abrigados</p>

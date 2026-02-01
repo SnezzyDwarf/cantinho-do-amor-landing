@@ -1,7 +1,6 @@
 .transformation_section {
   display: flex;
   flex-direction: column;
-  background-color: #f9ebe1;
 }
 
 .transformation_section-text {
@@ -29,6 +28,14 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  background-color: var(--color-bg-main);
+  z-index: -2;
+  align-self: center;
+  padding: 4em;
+  border: 1px solid black;
 }
 .transformation_content-text {
   text-align: center;
@@ -38,7 +45,7 @@
 .transformation_content-img_box {
   display: flex;
   flex-direction: row;
-  width: 650px;
+  width: 50%;
   max-height: 700px;
   object-fit: contain;
   gap: 6rem;
@@ -48,6 +55,90 @@
 
 .transformation-button {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 100px;
+  width: 50%;
+  align-self: center;
+  justify-content: space-around;
+  margin: 50px;
+}
+/*Global btn styles*/
+.btn {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  font-size: 15px;
+  border: none;
+}
+/*Container styles*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+/*Main button styles*/
+.btn {
+  position: relative;
+  height: fit-content;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-indent: 50px;
+  transition: 300ms;
+  font-weight: 500;
+}
+
+.btn-prev {
+  transform: rotate(90);
+}
+
+.btn::before {
+  content: "";
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--color-primary);
+  z-index: -1;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transition: 400ms;
+}
+
+.btn:hover {
+  text-indent: 15px;
+  color: white;
+  font-weight: 600;
+}
+.btn:active {
+  scale: 0.95;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn:hover::after {
+  left: calc(100% - 25px);
 }

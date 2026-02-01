@@ -1,14 +1,13 @@
 import logotipo from "../assets/images/logoNoBckNoL.png";
-import paw from "../assets/images/pawCatHeader.png";
-import heart from "../assets/images/HeartOutline.png";
-import heartFilled from "../assets/images/HeartFill.png";
+import HeartIcon from "../assets/Ui/HeartIcon";
+import CatPaw from "../assets/Ui/CataPaw";
 import "../styles/header.css";
 
 export default function Header() {
   return (
     <>
       <header className="header">
-        <div>
+        <div className="header_container">
           <div className="header__nav-group--left">
             <img src={logotipo} alt="logotipo" defer className="header_logo" />
             <div className="nav-group--container-left">
@@ -20,28 +19,19 @@ export default function Header() {
             </div>
           </div>
           <nav className="header_nav-group--center">
-            <img src={paw} alt="" />
+            <CatPaw size={40} className="center-icon" />
             <a href="#about">Sobre Nos</a>
-            <img src={paw} alt="" />
+            <CatPaw size={40} className={"center-icon"} />
             <a href="objective">Objectivo</a>
-            <img src={paw} alt="" />
-            <a href="chanllenges">Desafios</a>
-            <img src={paw} alt="" />
-            <a href="#cats">Vidas Salvas</a>
-            <img src={paw} alt="" />
-            <a href="#galeria">Antes & Depois</a>
+            <CatPaw size={40} className={"center-icon"} />
+            <a href="chanllenges">Vidas Salvas</a>
+            <CatPaw size={40} className={"center-icon"} />
+            <a href="#cats">Antes & Depois</a>
+            <CatPaw size={40} className={"center-icon"} />
+            <a href="#galeria">Como Ajudar</a>
           </nav>
           <button className="donate-button">
-            <img
-              src={heart}
-              alt="coracao"
-              className="donate-button_icon--outline"
-            />
-            <img
-              src={heartFilled}
-              alt="coracao cheio"
-              className="donate-button_icon--filled"
-            />
+            <HeartIcon size={50} className="button-icon" />
             <span>Doar</span>
           </button>
         </div>

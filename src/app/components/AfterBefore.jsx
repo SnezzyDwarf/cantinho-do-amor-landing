@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "../styles/AfterBefore.css";
-import ArroIcon from "../assets/Ui/ArrowIcon";
 
 export default function AfterBefore({ slides }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,13 +46,16 @@ export default function AfterBefore({ slides }) {
           </div>
         </div>
         <div className="transformation-button">
-          <button onClick={prev} className="transformation-button-prev">
-            prev
-          </button>
-
-          <button onClick={next} className="transformation-button-next">
-            next
-          </button>
+          <div class="container">
+            <button class="btn" onClick={prev}>
+              Anterior
+            </button>
+          </div>
+          <div class="container">
+            <button class="btn" onClick={next}>
+              Próximo
+            </button>
+          </div>
         </div>
       </section>
     </>

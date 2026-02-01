@@ -15,7 +15,7 @@ export default function About() {
             className="about_container-img"
           />
 
-          <div>
+          <div className="about_container-text">
             <h2>Quem Somos</h2>
             <p>
               O Cantinho do Amor nasceu da vontade de salvar gatinhos que vivem
@@ -31,7 +31,7 @@ export default function About() {
         </div>
         <div className="about_box">
           <div className="about_box-container">
-            <HeartIcon size={48} className="about-icon" />
+            <HeartIcon size={90} className="about-icon" />
             <h3>Amor & Cuidado</h3>
             <p>
               Cada gato recebe atenção individualizada e todo o carinho que
@@ -39,7 +39,7 @@ export default function About() {
             </p>
           </div>
           <div className="about_box-container">
-            <IconUser size={54} className="about-icon" />
+            <IconUser size={90} className="about-icon" />
             <h3>Equipe Dedicada</h3>
             <p>
               Profissionais qualificados e voluntários apaixonados trabalhando
@@ -47,7 +47,7 @@ export default function About() {
             </p>
           </div>
           <div className="about_box-container">
-            <ShieldIcon size={48} className="about-icon" />
+            <ShieldIcon size={90} className="about-icon" />
             <h3>Proteção Total</h3>
             <p>
               Do resgate à adoção, garantimos segurança e bem-estar em todas as

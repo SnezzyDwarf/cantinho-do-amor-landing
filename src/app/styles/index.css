@@ -17,8 +17,17 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
     sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -70,12 +79,18 @@ h6 {
 
 :root {
   --color-primary: #e1acce;
-  --color-primary-soft: #eed2e3;
-  --color-body:  #F5F5F4;
+  --color-primary-soft: hsl(324, 45%, 88%);
+  --color-body: #f5f5f4;
 
   --color-bg-main: #ffffff;
   --color-bg-soft: #e0d3db;
 
-  --color-text-main: #1a1a1a;
-  --color-text-muted: #6b6b6b;
+  --color-text-main: #000f08;
+  --color-text-muted: #5e6572;
+  --color-text-contrast: #ebebeb;
+
+  /*====== font-size=======*/
+  --font--text-main: 3rem;
+  --font--text-h3: 1.5rem;
+  --font--text-p: 1.3rem;
 }

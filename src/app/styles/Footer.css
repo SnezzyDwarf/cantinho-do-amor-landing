@@ -1,0 +1,40 @@
+.section_footer {
+  margin-top: 100px;
+  background-color: #3d3d3d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 6px solid var(--color-primary);
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.footer_principal {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer_information_client {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 30px;
+}
+
+.ooter_contacts-client {
+  margin-right: 30px;
+}
+
+.footer_slogan p {
+  color: #99a1af;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer_links li {
+  color: #99a1af;
+}
