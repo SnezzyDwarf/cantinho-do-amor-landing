@@ -1,40 +1,82 @@
 .section_footer {
-  margin-top: 100px;
   background-color: #3d3d3d;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   border-top: 6px solid var(--color-primary);
-  padding-top: 10px;
-  padding-bottom: 15px;
 }
 .footer_principal {
   display: flex;
   width: 100%;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 .footer_information_client {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-left: 30px;
-}
-
-.ooter_contacts-client {
-  margin-right: 30px;
+  margin: 30px 0 0 30px;
 }
 
 .footer_slogan p {
   color: #99a1af;
 }
 
-.footer_links {
+.footer_my-text {
+  display: flex;
+}
+
+.footer_socials-client {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
 }
+
+.buttons_footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-footer {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.button-footer span:first-child:hover {
+  opacity: 0;
+}
+
+.button-footer span:last-child {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.button-footer span:last-child:hover {
+  opacity: 1;
+}
+
+.footer_links {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
 .footer_links li {
   color: #99a1af;
+  text-decoration: underline;
+}
+
+.footer_contacts-client {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px 0 0;
+}
+
+.footer_second {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 40px;
+  gap: 2rem;
 }

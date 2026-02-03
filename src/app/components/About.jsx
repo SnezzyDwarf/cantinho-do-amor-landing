@@ -20,12 +20,14 @@ export default function About() {
             <p>
               O Cantinho do Amor nasceu da vontade de salvar gatinhos que vivem
               em perigo, muitos deles abandonados, doentes ou sem qualquer
-              proteção. Somos um projeto situado em Portalegre, formado por
-              voluntários movidos por dedicação, empatia e um enorme amor pelos
-              animais. Acreditamos que cada vida importa e que, com pequenos
-              gestos, é possível fazer uma grande diferença. Todos os dias
-              trabalhamos para resgatar, cuidar e encontrar um lar seguro para
-              quem mais precisa.
+              proteção. <br />
+              Somos um projeto situado em Portalegre, formado por voluntários
+              movidos por dedicação, empatia e um enorme amor pelos animais.
+              <br />
+              Acreditamos que cada vida importa e que, com pequenos gestos, é
+              possível fazer uma grande diferença. <br />
+              Todos os dias trabalhamos para resgatar, cuidar e encontrar um lar
+              seguro para quem mais precisa.
             </p>
           </div>
         </div>

@@ -100,7 +100,7 @@ export default function Counter() {
           <RainbowIcon size={100} className="impact-icon" />
           <div className="impact-container-box_text">
             <h2>{count3}</h2>
-            <p>Gatos Abrigados</p>
+            <p>Nunca Esquecidos</p>
           </div>
         </div>
       </div>

@@ -10,7 +10,8 @@ export default function Header() {
         <div className="header_container">
           <div className="header__nav-group--left">
             <img src={logotipo} alt="logotipo" defer className="header_logo" />
-            <div className="nav-group--container-left">
+
+            <div className="nav-group--container-left-text">
               <h1 className="title">CANTINHO DO AMOR</h1>
 
               <h2 className="message">SAVING CATS</h2>
@@ -18,6 +19,7 @@ export default function Header() {
               <p className="sub_message">AJUDAR QUEM TANTO PRECISA</p>
             </div>
           </div>
+          {/*CENTER (desktop) */}
           <nav className="header_nav-group--center">
             <CatPaw size={40} className="center-icon" />
             <a href="#about">Sobre Nos</a>
@@ -30,10 +32,17 @@ export default function Header() {
             <CatPaw size={40} className={"center-icon"} />
             <a href="#galeria">Como Ajudar</a>
           </nav>
-          <button className="donate-button">
-            <HeartIcon size={50} className="button-icon" />
-            <span>Doar</span>
-          </button>
+
+          {/*Right*/}
+
+          <div className="header__nav-group--right">
+            <button className="donate-button">
+              <HeartIcon size={50} className="button-icon" />
+              <span>Doar</span>
+            </button>
+          </div>
+          {/*menu mobile (future)*/}
+          <div className="menu">menu</div>
         </div>
       </header>
     </>

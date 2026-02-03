@@ -1,5 +1,10 @@
 import HeartIcon from "../assets/Ui/HeartIcon";
 import "../styles/Footer.css";
+import InstagramIconBlack from "../assets/Ui/InstagramIconNoColor";
+import FacebookIconBlack from "../assets/Ui/FacebookIconNoColor";
+import InstaColor from "../assets/Ui/InstaColor";
+
+import FacebookColor from "../assets/Ui/FacebookIcon";
 
 export default function Footer() {
   return (
@@ -13,8 +18,24 @@ export default function Footer() {
             </div>
             <div className="footer_socials-client">
               <h3>Redes Sociais:</h3>
-              <button>Instagram</button>
-              <button>Facebook</button>
+              <div className="buttons_footer-container">
+                <button className="button-footer">
+                  <span>
+                    <InstagramIconBlack size={50} />
+                  </span>
+                  <span>
+                    <InstaColor size={44} />
+                  </span>
+                </button>
+                <button className="button-footer ">
+                  <span>
+                    <FacebookIconBlack size={40} />
+                  </span>
+                  <span>
+                    <FacebookColor size={17} />
+                  </span>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -51,8 +72,12 @@ export default function Footer() {
           </div>
 
           <div className="footer_socials-my">
-            <p>
-              Feito com <HeartIcon size={20} /> por Bruno Pernão
+            <p className="footer_my-text">
+              Feito com
+              <span>
+                <HeartIcon size={20} />
+              </span>
+              por Bruno Pernão
             </p>
           </div>
         </div>
