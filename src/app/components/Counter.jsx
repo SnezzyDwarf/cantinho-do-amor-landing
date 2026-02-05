@@ -70,7 +70,7 @@ export default function Counter() {
   }, [hasStarted]);
 
   return (
-    <section className="impact_box" ref={sectionRef}>
+    <section id="counter" className="impact_box" ref={sectionRef}>
       <div className="impact_box-text">
         <h2>Nosso Impacto</h2>
         <p>
@@ -81,7 +81,7 @@ export default function Counter() {
 
       <div className="impact_container">
         <div className="impact_container-box">
-          <CatIcon size={100} className="impact-icon" />
+          <CatIcon size={70} className="impact-icon" />
           <div className="impact_container-box_text">
             <h2>{count1}</h2>
             <p>Gatos Salvos</p>
@@ -89,7 +89,7 @@ export default function Counter() {
         </div>
 
         <div className="impact_container-box">
-          <HeartIcon size={100} className="impact-icon" />
+          <HeartIcon size={70} className="impact-icon" />
           <div className="impact-container-box_text">
             <h2>{count2}</h2>
             <p>Gatos Adotados</p>
@@ -97,7 +97,7 @@ export default function Counter() {
         </div>
 
         <div className="impact_container-box">
-          <RainbowIcon size={100} className="impact-icon" />
+          <RainbowIcon size={70} className="impact-icon" />
           <div className="impact-container-box_text">
             <h2>{count3}</h2>
             <p>Nunca Esquecidos</p>

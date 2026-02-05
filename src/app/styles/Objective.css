@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-self: center;
   margin: 50px;
+  padding: 100px;
 }
 
 .container-objective_header {
@@ -11,19 +12,19 @@
   margin-bottom: 20px;
 }
 
-.container-objective_header h2 {
-  font-size: 44px;
+.container-objective_header > h2 {
+  font-size: clamp(var(--fs-h2-min), 3vw + 0.5rem, var(--fs-h2-max));
   margin-bottom: 5px;
   color: var(--color-text-main);
 }
 
-.container-objective_header p {
-  font-size: 24px;
+.container-objective_header > p {
+  font-size: clamp(var(--fs-h3-min), 3vw + 0.5rem, var(--fs-h3-max));
   color: var(--color-text-muted);
 }
 .container-objective--box {
   display: grid;
-  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-columns: (2, 0.5fr);
   gap: 2rem;
   margin-top: 35px;
 }
@@ -46,8 +47,8 @@
   flex-direction: column;
 }
 
-.objective-icon {
-  color: black;
+.objective-icon,
+.objective-icon-heart {
   min-width: 60px;
   height: auto;
 }

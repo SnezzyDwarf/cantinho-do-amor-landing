@@ -5,7 +5,7 @@ export default function HeartIcon({ size = 24, className = "" }) {
         viewBox="0 0 24 24"
         width={size}
         height={size}
-        fill="none"
+        fill="currentColor"
         className={className}
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -17,7 +17,7 @@ export default function HeartIcon({ size = 24, className = "" }) {
        C13 6 14.5 5 16 5
        C18 5 20 6.5 20 9
        C20 14.5 12 21 12 21Z"
-          stroke="currentColor"
+          stroke="none"
           strokeWidth={1.8}
           strokeLinejoin="round"
           strokeLinecap="round"

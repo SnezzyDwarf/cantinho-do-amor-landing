@@ -2,11 +2,12 @@ import "../styles/Donation.css";
 import PhoneIcon from "../assets/Ui/PhoneIcon";
 import CardIcon from "../assets/Ui/CardIcon";
 import CopyIcon from "../assets/Ui/CopyIcon";
+import HeartIcon from "../assets/Ui/HeartIcon";
 
 export default function Donation() {
   return (
     <>
-      <section className="donation_section">
+      <section id="donation" className="donation_section">
         <div className="donation_section-title">
           <h2>Como Ajudar</h2>
           <p>Dá trabalho. Dá despesa e muita. Mas salvamos vidas </p>
@@ -15,13 +16,13 @@ export default function Donation() {
 
         <div className="donation_content">
           <div className="donation_content-up">
-            <p className="donation_content-up-text">
-              Este projeto é <strong>100% independente</strong> <br />
-              Não somos nenhuma associação <br /> Não recebemos apoio financeiro
-              externo <br />
+            <h3 className="donation_content-up-text">
+              Este projeto é <strong>100% independente!</strong> <br />
+              Não somos nenhuma associação. <br /> Não recebemos apoio
+              financeiro externo. <br />
               Apenas ajudas generosas de vocês que, mesmo à distância, fazem
-              parte destas histórias
-            </p>
+              parte destas histórias!
+            </h3>
           </div>
           <div className="donation_content-contact">
             <div className="donation_content-contact-text">
@@ -48,9 +49,11 @@ export default function Donation() {
                   <CardIcon size={60} />
                   <h3>Transferência Bancária</h3>
                   <div className="donation_contacts">
-                    <p>
-                      IBAN <br /> 003600579910008204986
-                    </p>
+                    <div className="donation_contacts-text">
+                      <p>IBAN </p>
+                      <p>003600579910008204986</p>
+                    </div>
+
                     <button className="copy_button">
                       <CopyIcon size={24} className="copy_icon" />
                     </button>
@@ -59,6 +62,9 @@ export default function Donation() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="donation_heart">
+          <HeartIcon size={90} className="donate-icon" />
         </div>
       </section>
     </>

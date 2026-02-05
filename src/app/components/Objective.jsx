@@ -7,7 +7,7 @@ import HeartIcon from "../assets/Ui/HeartIcon";
 export default function Objective() {
   return (
     <>
-      <section className="container-objective">
+      <section id="objective" className="container-objective">
         <div className="container-objective_header">
           <h2>Nosso Objectivo</h2>
           <p>
@@ -51,9 +51,9 @@ export default function Objective() {
           </div>
 
           <div className="container-objective--box_content">
-            <HeartIcon size={65} className="objective-icon" />
+            <HeartIcon size={65} className="objective-icon-heart" />
             <div className="container-objective--box_content-text">
-              <h3>Conscientização</h3>
+              <h3>Consciencialização</h3>
               <p>
                 Educar a comunidade sobre posse responsável, prevenção de maus
                 tratos e a importância da castração

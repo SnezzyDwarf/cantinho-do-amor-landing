@@ -19,30 +19,19 @@ export default function Header() {
               <p className="sub_message">AJUDAR QUEM TANTO PRECISA</p>
             </div>
           </div>
-          {/*CENTER (desktop) */}
+          {/*CENTER/Right (desktop) */}
           <nav className="header_nav-group--center">
             <CatPaw size={40} className="center-icon" />
             <a href="#about">Sobre Nos</a>
             <CatPaw size={40} className={"center-icon"} />
-            <a href="objective">Objectivo</a>
+            <a href="#objective">Objectivo</a>
             <CatPaw size={40} className={"center-icon"} />
-            <a href="chanllenges">Vidas Salvas</a>
+            <a href="#counter">Vidas Salvas</a>
             <CatPaw size={40} className={"center-icon"} />
             <a href="#cats">Antes & Depois</a>
             <CatPaw size={40} className={"center-icon"} />
-            <a href="#galeria">Como Ajudar</a>
+            <a href="#donation">Como Ajudar</a>
           </nav>
-
-          {/*Right*/}
-
-          <div className="header__nav-group--right">
-            <button className="donate-button">
-              <HeartIcon size={50} className="button-icon" />
-              <span>Doar</span>
-            </button>
-          </div>
-          {/*menu mobile (future)*/}
-          <div className="menu">menu</div>
         </div>
       </header>
     </>

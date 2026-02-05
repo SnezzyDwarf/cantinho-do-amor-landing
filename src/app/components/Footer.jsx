@@ -20,20 +20,34 @@ export default function Footer() {
               <h3>Redes Sociais:</h3>
               <div className="buttons_footer-container">
                 <button className="button-footer">
-                  <span>
-                    <InstagramIconBlack size={50} />
-                  </span>
-                  <span>
-                    <InstaColor size={44} />
-                  </span>
+                  <a
+                    href="https://www.instagram.com/cantinho.do.amor_cats?igsh=MXE2dDlvYjU4ZGxncA%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                  >
+                    <span>
+                      <InstagramIconBlack size={50} />
+                    </span>
+                    <span>
+                      <InstaColor size={47} />
+                    </span>
+                  </a>
                 </button>
                 <button className="button-footer ">
-                  <span>
-                    <FacebookIconBlack size={40} />
-                  </span>
-                  <span>
-                    <FacebookColor size={17} />
-                  </span>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61569264656662&rdid=qkIS3a2DhE8k6AEN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1KUuLACyDM%2F#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                  >
+                    <span>
+                      <FacebookIconBlack size={40} />
+                    </span>
+                    <span>
+                      <FacebookColor size={17} className="facebook-color" />
+                    </span>
+                  </a>
                 </button>
               </div>
             </div>
@@ -43,26 +57,26 @@ export default function Footer() {
             <h3>Links Rápidos:</h3>
             <ul>
               <li>
-                <a href="">Sobre Nos</a>
+                <a href="#about">Sobre Nos</a>
               </li>
               <li>
-                <a href="">Objectivo</a>
+                <a href="#objective">Objectivo</a>
               </li>
               <li>
-                <a href="">Vidas Slavas</a>
+                <a href="#counter">Vidas Slavas</a>
               </li>
               <li>
-                <a href="">Antes & Depoois</a>
+                <a href="#cats">Antes & Depois</a>
               </li>
               <li>
-                <a href="">Como Ajudar</a>
+                <a href="#donation">Como Ajudar</a>
               </li>
             </ul>
           </div>
           <div className="footer_contacts-client">
             <h2>Contactos</h2>
-            <p>Telefone:</p>
-            <p>Email:</p>
+            <p>Telefone: 966 245 228</p>
+            <p>Email: cantinho.do.amor@outlook.pt</p>
           </div>
         </div>
 

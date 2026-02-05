@@ -1,4 +1,4 @@
-import Cats from "../assets/images/CatImageAboutPlaceHolder.png";
+import Cats from "../assets/images/SubHeroTrue.jpeg";
 import HeartIcon from "../assets/Ui/HeartIcon";
 import IconUser from "../assets/Ui/IconUser";
 import ShieldIcon from "../assets/Ui/ShieldIcon";
@@ -7,7 +7,7 @@ import "../styles/About.css";
 export default function About() {
   return (
     <>
-      <section className="section_about">
+      <section id="about" className="section_about">
         <div className="about_container">
           <img
             src={Cats}

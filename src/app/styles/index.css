@@ -88,8 +88,34 @@ h6 {
   --color-text-muted: #5e6572;
   --color-text-contrast: #ebebeb;
 
-  /*====== font-size=======*/
-  --font--text-main: 3rem;
-  --font--text-h3: 1.5rem;
-  --font--text-p: 1.3rem;
+/*===text====*/
+ --fs-p-min: 0.95rem;
+  --fs-p-max: 1.15rem;
+  /* vw + 0.25rem*/
+
+  /*===== Títulos==== */
+  --fs-h3-min: 1.1rem;
+  --fs-h3-max: 1.4rem;
+
+  --fs-h2-min: 1.4rem;
+  --fs-h2-max: 2rem;
+
+  --fs-h1-min: 2rem;
+  --fs-h1-max: 3.2rem;
+
+  /*===== Espaçamentos==== */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
 }
+
+
+/*
+Uso	                  Unidade	    Valores seguros
+Hero height	          vh	            50–70vh
+Section padding	      vh	            6–12vh
+Card  width	          vw	            20–30vw
+Card  height	        vw	            18–25vw
+Ícones                vw	            10–15vw
+Texto	                vw	            2–5vw (com clamp)

@@ -1,4 +1,4 @@
-import catHero from "../assets/images/HeroSection3.jpeg";
+import catHero from "../assets/images/TrueHeroSectionImg.jpeg";
 import "../styles/Hero.css";
 
 export default function Hero() {
