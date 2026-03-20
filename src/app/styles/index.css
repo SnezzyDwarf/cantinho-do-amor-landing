@@ -1,3 +1,5 @@
+@import "../styles/header.css";
+
 /* ==== CSS RESET / BASE ==== */
 
 *,
@@ -88,8 +90,8 @@ h6 {
   --color-text-muted: #5e6572;
   --color-text-contrast: #ebebeb;
 
-/*===text====*/
- --fs-p-min: 0.95rem;
+  /*===text====*/
+  --fs-p-min: 0.95rem;
   --fs-p-max: 1.15rem;
   /* vw + 0.25rem*/
 
@@ -110,7 +112,6 @@ h6 {
   --space-lg: 2rem;
 }
 
-
 /*
 Uso	                  Unidade	    Valores seguros
 Hero height	          vh	            50–70vh
@@ -119,3 +120,4 @@ Card  width	          vw	            20–30vw
 Card  height	        vw	            18–25vw
 Ícones                vw	            10–15vw
 Texto	                vw	            2–5vw (com clamp)
+*/
