@@ -1,6 +1,4 @@
 import logotipo from "../assets/images/logoNoBckNoL.png";
-import HeartIcon from "../assets/Ui/HeartIcon";
-import CatPaw from "../assets/Ui/CataPaw";
 import "../styles/header.css";
 
 export default function Header() {

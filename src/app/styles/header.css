@@ -57,7 +57,7 @@
   align-items: center;
   gap: 0.75rem;
   flex: 1;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 15px;
 }
 
@@ -86,10 +86,6 @@
     display: none;
   }
   .header_nav-group--center {
-    display: none;
-  }
-
-  .header_container {
     display: none;
   }
 }
