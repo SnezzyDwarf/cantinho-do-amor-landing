@@ -1,8 +1,8 @@
 const slides = [
   {
     name: "Bart",
-    after: "/cats/Bart/BartAfter.jpeg",
-    before: "/cats/Bart/BartBefore.jpeg",
+    after: "/public/cats/Bart/BartAfter.jpeg",
+    before: "/public/cats/Bart/BartBefore.jpeg",
   },
   {
     name: "Bocage",
@@ -11,14 +11,14 @@ const slides = [
   },
   {
     name: "Caju",
-    after: "/cats/Caju/CajuAfter.jpeg",
-    before: "/cats/Caju/CajuBefore.jpeg",
+    after: "/public/cats/Caju/CajuAfter.jpeg",
+    before: "/public/cats/Caju/CajuBefore.jpeg",
   },
 
   {
     name: "Freddy",
-    after: "/cats/Freddy/FreddyAfter.jpeg",
-    before: "/cats/Freddy/FreddyBefore.jpeg",
+    after: "/public/cats/Freddy/FreddyAfter.jpeg",
+    before: "/public/cats/Freddy/FreddyBefore.jpeg",
   },
 ];
 
