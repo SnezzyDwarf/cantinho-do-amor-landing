@@ -72,16 +72,10 @@
   color: rgb(156, 156, 156);
 }
 
-@media (max-width: 480px) {
-  .nav-group--container-left-text {
-    display: none;
-  }
-  .menu-overlay {
-    display: none;
-  }
-}
-
 @media (max-width: 980px) {
+  .header {
+    position: initial;
+  }
   .nav-group--container-left-text {
     display: none;
   }

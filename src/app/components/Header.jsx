@@ -20,9 +20,9 @@ export default function Header() {
           {/*CENTER/Right (desktop) */}
           <nav className="header_nav-group--center">
             <CatPaw size={40} className="center-icon" />
-            <a href="#about">Sobre Nos</a>
+            <a href="#about">Sobre Nós</a>
             <CatPaw size={40} className={"center-icon"} />
-            <a href="#objective">Objectivo</a>
+            <a href="#objective">Objetivo</a>
             <CatPaw size={40} className={"center-icon"} />
             <a href="#counter">Vidas Salvas</a>
             <CatPaw size={40} className={"center-icon"} />

@@ -14,7 +14,6 @@ export default function Footer() {
           <div className="footer_information_client">
             <div className="footer_slogan">
               <h3>Cantinho do amor</h3>
-              <p>Juntos, podemos fazer a diferença Um gatinho de cada vez</p>
             </div>
             <div className="footer_socials-client">
               <h3>Redes Sociais:</h3>
@@ -50,6 +49,11 @@ export default function Footer() {
                   </a>
                 </button>
               </div>
+              <p style={{ textAlign: "start" }}>
+                Juntos, podemos fazer a diferença.
+                <br />
+                Um gatinho de cada vez
+              </p>
             </div>
           </div>
 
@@ -57,13 +61,13 @@ export default function Footer() {
             <h3>Links Rápidos:</h3>
             <ul>
               <li>
-                <a href="#about">Sobre Nos</a>
+                <a href="#about">Sobre Nós</a>
               </li>
               <li>
-                <a href="#objective">Objectivo</a>
+                <a href="#objective">Objetivo</a>
               </li>
               <li>
-                <a href="#counter">Vidas Slavas</a>
+                <a href="#counter">Vidas Salvas</a>
               </li>
               <li>
                 <a href="#cats">Antes & Depois</a>

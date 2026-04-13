@@ -74,8 +74,8 @@ export default function Counter() {
       <div className="impact_box-text">
         <h2>Nosso Impacto</h2>
         <p>
-          Estes números representam vidas transformadas e segundas chances
-          concedidas
+          Por trás de cada número há um vida salva, um coração curado e uma
+          história que encontrou um final feliz
         </p>
       </div>
 

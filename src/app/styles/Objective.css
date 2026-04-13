@@ -1,5 +1,6 @@
 .container-objective {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-self: center;
   margin: 50px;
@@ -24,7 +25,7 @@
 }
 .container-objective--box {
   display: grid;
-  grid-template-columns: (2, 0.5fr);
+  grid-template-columns: (2, 1fr);
   gap: 2rem;
   margin-top: 35px;
 }
@@ -47,8 +48,27 @@
   flex-direction: column;
 }
 
+.container-objective--box_content-text p {
+  font-size: clamp(var(--fs-p-min), 0.5vw + 0.25rem, var(--fs-p-max));
+  color: var(--color-text-muted);
+}
+
 .objective-icon,
 .objective-icon-heart {
   min-width: 60px;
   height: auto;
+}
+
+@media (max-width: 728px) {
+  .container-objective {
+    padding: 0;
+  }
+  .container-objective--box {
+    width: 100%;
+    height: auto;
+  }
+  .container-objective--box_content {
+    width: 100%;
+    height: auto;
+  }
 }

@@ -56,7 +56,7 @@ export default function Hidden() {
                       }, 600);
                     }}
                   >
-                    Sobre Nos
+                    Sobre Nós
                   </a>
                 </div>
                 <div className="hidden_nav-row">
@@ -73,7 +73,7 @@ export default function Hidden() {
                       }, 600);
                     }}
                   >
-                    Objectivo
+                    Objetivo
                   </a>
                 </div>
                 <div className="hidden_nav-row">

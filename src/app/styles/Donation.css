@@ -116,6 +116,22 @@
   border: none;
 }
 
+.copied_button {
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.copied_button::after {
+  content: "Copiado";
+  position: absolute;
+  top: -34px;
+  left: -25px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  padding: var(--space-xs);
+}
 .donation_heart {
   display: flex;
   align-self: center;

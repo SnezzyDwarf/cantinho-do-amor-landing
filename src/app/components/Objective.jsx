@@ -11,8 +11,8 @@ export default function Objective() {
         <div className="container-objective_header">
           <h2>Nosso Objectivo</h2>
           <p>
-            Resgatamos, Cuidamos, Tratamos e Procuramos um Catinho para cada
-            patinha que cruza o nosso caminho!
+            Resgatamos, Cuidamos, Tratamos e Procuramos Famílias responsáveis
+            para cada patinha que cruza o nosso caminho!
           </p>
         </div>
 
@@ -22,8 +22,9 @@ export default function Objective() {
             <div className="container-objective--box_content-text">
               <h3>Resgatar e Proteger</h3>
               <p>
-                Localizar e resgatar gatos em situação de maus tratos, abandono
-                ou perigo nas ruas, oferecendo um refúgio seguro
+                Porque nenhum gatinho devia enfrentar o mundo sozinho.
+                Resgatamos aqueles deixados para trás, e damos o primeiro passo:
+                um cantinho onde possam finalmente chamar de casa
               </p>
             </div>
           </div>
@@ -33,8 +34,9 @@ export default function Objective() {
             <div className="container-objective--box_content-text">
               <h3>Cuidados Veterinários</h3>
               <p>
-                Garantir tratamento médico completo, vacinação, castração e
-                reabilitação física e emocional de todos os animais resgatados
+                Cuidamos das feridas que se veem… e das que não se veem. Aqui,
+                cada gatinho encontra tratamento, colo e tempo para voltar a
+                confiar
               </p>
             </div>
           </div>
@@ -44,8 +46,9 @@ export default function Objective() {
             <div className="container-objective--box_content-text">
               <h3>Adoção Responsável</h3>
               <p>
-                Encontrar lares permanentes e amorosos, com processo criterioso
-                de seleção para garantir o bem-estar dos felinos
+                Acreditamos em finais felizes, mas também em escolhas
+                conscientes.Por isso, procuramos famílias que amem de verdade,
+                compreendam o compromisso e ofereçam o melhor a cada gatinho.
               </p>
             </div>
           </div>
@@ -55,8 +58,9 @@ export default function Objective() {
             <div className="container-objective--box_content-text">
               <h3>Consciencialização</h3>
               <p>
-                Educar a comunidade sobre posse responsável, prevenção de maus
-                tratos e a importância da castração
+                Educar é salvar. Sensibilizamos a comunidade para a adoção
+                responsável, o respeito pelos animais e a importância da
+                esterilização/castração
               </p>
             </div>
           </div>

@@ -9,13 +9,13 @@
 
 .impact_container {
   width: min(600px, 95%);
-  padding: clamp(1rem, 2.5vw, 2rem);
+  padding: 1rem;
   min-height: clamp(260px, 40vw, 360px);
   display: flex;
   flex-direction: row;
   align-items: center;
   align-self: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .impact_box-text {
@@ -91,4 +91,15 @@
 .impact_container-box:hover {
   border: 2px solid gray;
   box-shadow: 2px 5px 9px rgb(144, 105, 111);
+}
+
+@media (max-width: 728px) {
+  .impact_container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .impact_container-box {
+    width: 50%;
+    height: auto;
+  }
 }

@@ -1,20 +1,17 @@
 .section_about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding-top: 100px;
-  margin-bottom: 50px;
+  width: 100%;
+  height: auto;
   background-color: var(--color-bg-main);
 }
 
 .about_container {
   display: flex;
-  width: 90%;
-  max-width: 50em;
+  width: 100%;
+  max-width: 1200px;
   justify-self: center;
   margin: 0 auto;
-  gap: 2rem;
+  padding: 5rem 1rem;
+  gap: var(--space-lg);
 }
 .about_container-img {
   width: 100%;
@@ -40,20 +37,19 @@
   display: flex;
   gap: clamp(1rem, 1vh, 4rem);
   width: 100%;
-  max-width: 40em;
   height: auto;
-  justify-self: center;
+  justify-content: center;
   margin-top: 50px;
-  margin-bottom: 100px;
+  padding: 5rem 1rem;
 }
 
 .about_box-container {
   display: block;
   text-align: center;
   justify-items: center;
-  width: min(250px, 95%);
+  width: min(350px, 95%);
   height: auto;
-  padding: 30px 30px 30px 30px;
+  padding: 30px;
   border-radius: 12px;
   border: none;
   background-color: var(--color-primary-soft);

@@ -36,24 +36,24 @@ export default function About() {
             <HeartIcon size={90} className="about-icon" />
             <h3>Amor & Cuidado</h3>
             <p>
-              Cada gato recebe atenção individualizada e todo o carinho que
-              merece
+              Cada gatinho que chega até nós recebe atenção individualizada,
+              carinho e todos os cuidados que merece.
             </p>
           </div>
           <div className="about_box-container">
             <IconUser size={90} className="about-icon" />
             <h3>Equipe Dedicada</h3>
             <p>
-              Profissionais qualificados e voluntários apaixonados trabalhando
-              juntos
+              Somos poucos voluntários, mas apaixonados pelo que fazemos. Damos
+              o nosso melhor por cada vida que resgatamos.
             </p>
           </div>
           <div className="about_box-container">
             <ShieldIcon size={90} className="about-icon" />
-            <h3>Proteção Total</h3>
+            <h3>Da Rua ao Para Sempre</h3>
             <p>
-              Do resgate à adoção, garantimos segurança e bem-estar em todas as
-              etapas
+              Do resgate à adoção, acompanhamos cada patinha ao longo de todo o
+              caminho, até encontrar a sua família certa.
             </p>
           </div>
         </div>

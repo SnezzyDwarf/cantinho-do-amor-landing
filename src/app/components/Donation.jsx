@@ -3,8 +3,36 @@ import PhoneIcon from "../assets/Ui/PhoneIcon";
 import CardIcon from "../assets/Ui/CardIcon";
 import CopyIcon from "../assets/Ui/CopyIcon";
 import HeartIcon from "../assets/Ui/HeartIcon";
+import { useState } from "react";
 
 export default function Donation() {
+  const mBWay = "926 954 995";
+  const bank = "003600579910008204986";
+
+  const [copied, setCopied] = useState(false);
+  const [isBank, setIsBank] = useState(false);
+
+  const handleMBWay = async () => {
+    try {
+      await navigator.clipboard.writeText(mBWay);
+      setCopied(true);
+
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error("Erro ao copiar", err);
+    }
+  };
+
+  const handleBank = async () => {
+    try {
+      await navigator.clipboard.writeText(bank);
+      setIsBank(true);
+
+      setTimeout(() => setIsBank(false), 2000);
+    } catch (err) {
+      console.error("Erro ao copiar", err);
+    }
+  };
   return (
     <>
       <section id="donation" className="donation_section">
@@ -38,7 +66,10 @@ export default function Donation() {
                   <h3>MBWAY</h3>
                   <div className="donation_contacts">
                     <p>926 954 995</p>
-                    <button className="copy_button">
+                    <button
+                      className={!copied ? "copy_button" : "copied_button"}
+                      onClick={handleMBWay}
+                    >
                       <CopyIcon size={24} />
                     </button>
                   </div>
@@ -54,7 +85,10 @@ export default function Donation() {
                       <p>003600579910008204986</p>
                     </div>
 
-                    <button className="copy_button">
+                    <button
+                      className={!isBank ? "copy_button" : `copied_button`}
+                      onClick={handleBank}
+                    >
                       <CopyIcon size={24} className="copy_icon" />
                     </button>
                   </div>
