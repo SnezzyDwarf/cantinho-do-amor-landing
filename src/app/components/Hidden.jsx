@@ -47,7 +47,7 @@ export default function Hidden() {
                   <a
                     href="#about"
                     onClick={(e) => {
-                      e.preventDefault;
+                      e.preventDefault();
                       closeMenu();
                       setTimeout(() => {
                         document

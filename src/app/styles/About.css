@@ -99,10 +99,14 @@
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 768px) {
   .about_box {
+    width: 90%;
     display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
     flex-wrap: wrap;
-    max-width: 15em;
+    margin: 0 auto;
   }
 }
