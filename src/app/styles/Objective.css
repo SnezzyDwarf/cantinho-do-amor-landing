@@ -1,16 +1,16 @@
 .container-objective {
-  display: flex;
   width: 100%;
-  flex-direction: column;
-  justify-self: center;
-  margin: 50px;
-  padding: 100px;
 }
 
 .container-objective_header {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  display: block;
-  margin-bottom: 20px;
+  padding: 5rem 1rem;
+  margin: 0 auto;
 }
 
 .container-objective_header > h2 {
