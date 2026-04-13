@@ -124,6 +124,7 @@
   text-indent: 50px;
   transition: 300ms;
   font-weight: 500;
+  color: black;
 }
 
 .btn::before {
