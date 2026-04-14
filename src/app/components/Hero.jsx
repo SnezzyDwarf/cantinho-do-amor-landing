@@ -14,7 +14,7 @@ export default function Hero() {
             </h1>
 
             <a href="">
-              <span>Conheça nossa missão</span>
+              <span>Conheça a nossa missão</span>
               <div>
                 <p className="arrow"></p>
               </div>

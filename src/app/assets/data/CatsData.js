@@ -35,11 +35,7 @@ const slides = [
     after: "/cats/Mochi/MochiAfter.jpeg",
     before: "/cats/Mochi/MochiBefore.jpeg",
   },
-  {
-    name: "Mochi",
-    after: "/cats/Mochi2/Mochi2After.jpeg",
-    before: "/cats/Mochi2/Mochi2bEFORE.jpeg",
-  },
+
   {
     name: "Molly",
     after: "/cats/Molly/MollyAfter.jpeg",
