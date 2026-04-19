@@ -1,5 +1,7 @@
 .container-objective {
   width: 100%;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 .container-objective_header {
@@ -28,10 +30,13 @@
   grid-template-columns: (2, 1fr);
   gap: 2rem;
   margin-top: 35px;
+  place-items: center;
 }
 
 .container-objective--box_content {
   display: flex;
+  align-items: center;
+  width: 90%;
   gap: 1rem;
   border: 1px solid var(--color-bg-main);
   padding: 15px;
