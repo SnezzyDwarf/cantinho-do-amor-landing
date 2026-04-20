@@ -91,12 +91,17 @@ export default function Footer() {
 
           <div className="footer_socials-my">
             <p className="footer_my-text">
-              Feito com
-              <span>
-                <HeartIcon size={20} />
-              </span>
-              por Bruno Pernão
+              Website desenvolvido por Bruno Pernao
             </p>
+            <HeartIcon size={20} />
+            <p>Frontend Developer especializado em React</p>
+            <a
+              href="https://personal-website-lyart-tau-75.vercel.app/"
+              defer
+              target="_blank"
+            >
+              Ver Porefólio
+            </a>
           </div>
         </div>
       </footer>
